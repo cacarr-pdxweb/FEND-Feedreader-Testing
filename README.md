@@ -1,7 +1,7 @@
 # Udacity Front-End Nanodegree - Project 4 - Feed-Reader-Testing
 
 ## Testing a web app with Jasmine
-For this Udacity FEND project we were required to write passing tests against a provided RSS feed reader web app using the Jasmine JavaScript testing framework. The tests suites included checks for valid URLs, etc., and analyzing provided HTML/CSS/JavaScript in order to test for correct functioning of a slide-in sidebar navigation menu. 
+For this Udacity FEND project we were required to write passing tests against a provided RSS feed reader web app using the Jasmine JavaScript testing framework. The tests suites included checks for valid URLs, etc., and involved analyzing provided HTML/CSS/JavaScript in order to test for correct functioning of a slide-in sidebar navigation menu, among other tests. 
 
 ## Running the application:
 + Download the directories and open the index.html in your browser.
