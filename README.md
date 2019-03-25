@@ -8,5 +8,5 @@ For this Udacity FEND project we were required to write passing tests against a 
 + The results of the test are located at the bottom of the index.html page.
 + Test suites are in /jasmine/spec/feedreader.js.
 
-![Feed reader app screenshot](https://raw.githubusercontent.com/cacarr-pdxweb/FEND-Feedreader-Testing/master/fend-feed-reader.png"Green spec")
+![Feed reader app screenshot](https://raw.githubusercontent.com/cacarr-pdxweb/FEND-Feedreader-Testing/master/fend-feed-reader.png)
 
