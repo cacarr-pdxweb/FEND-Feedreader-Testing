@@ -8,12 +8,12 @@
  * since some of these tests may require DOM elements. We want
  * to ensure they don't run until the DOM is ready.
  */
-$(function () {
+$(function () { // hmm, not certain of the syntax for IIFE fat arrow functions
     /*  This suite is all about the RSS feeds definitions, 
      *  the allFeeds variable in our application.
      */
 
-    describe('RSS Feeds', function () {
+    describe('RSS Feeds', () => {
 
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
@@ -23,7 +23,7 @@ $(function () {
          * page?
          */
 
-        it('are defined', function () {
+        it('are defined', () => {
             expect(allFeeds).toBeDefined();
             expect(allFeeds.length).not.toBe(0);
         });
@@ -112,7 +112,7 @@ $(function () {
          */
 
         let feed;
-        let newFeed;
+        let nextFeed;
 
         beforeEach((done) => {
             loadFeed(0, () => {
@@ -125,7 +125,7 @@ $(function () {
         });
 
         it('should show new content when a new feed is loaded', () => {
-            expect(feed).not.toEqual(newFeed); // first and subsequents feeds should be different 
+            expect(feed).not.toEqual(nextFeed); // first and subsequents feeds should be different 
         });
     });
 }());
